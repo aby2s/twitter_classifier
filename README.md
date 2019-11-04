@@ -36,4 +36,4 @@ I've made several modifications to train_set.csv:
 * Changed value of a column minutes on line 3674 ellen from 20f to 20
 I didn't find any problems with test_set.csv.
 ## CatBoost and a GPU 
-CatBoost is set to train on a GPU. If you don't have a GPU with 6GB VRAM available, you can run training on a CPU. To do so, change task_type parameter to GPU in CatBoost constructor. It will take more time to train (a couple of hours on an average CPU vs. several minutes on a GPU), but it will work fine. CatBoost doesn't require a GPU on inference.
+CatBoost is set to train on a GPU. If you don't have a GPU with 6GB VRAM available, you can run training on a CPU. To do so, change task_type parameter to CPU in CatBoost constructor. It will take more time to train (a couple of hours on an average CPU vs. several minutes on a GPU), but it will work fine. CatBoost doesn't require a GPU on inference.
