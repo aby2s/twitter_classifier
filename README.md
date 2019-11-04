@@ -1,10 +1,10 @@
 # Twitter author classifier
 ## Contents
 * requirements.txt - Python requirements file
-* author_classifier.py - Python script, which contains my final solution.
+* author_classifier.py - Python script, which contains the final classifier.
 * author_classifier.ipynb - Jupyter notebook which contains some of my thoughts about the task and steps that I took before I came to the final solution
 * data - Provided data with the modified train set (see [Train set modifications](#train-set-modifications))
-##Requirements
+## Requirements
 I run this code on Python 3.6. Other Python 3.x versions could be suitable too. Requirements are fixed in a requirements file. To install them run:
 ```console
 $ pip install -r requirements.txt
