@@ -1,4 +1,4 @@
-numpy==1.17.3
+numpy==1.22.0
 pandas==0.25.2
 scipy==0.19.1
 spacy== 2.2.1
